@@ -1,0 +1,10 @@
+.content{
+    padding: 2px;
+    background-color: aliceblue;
+    grid-area: c;
+}
+.content_logo{
+    object-fit: none;
+    height: 120px;
+    width: 750px;
+}
