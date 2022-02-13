@@ -1,8 +1,8 @@
 import React from "react";
-import "./nav.css"
+import "./navbar.css"
 
 
-export function Nav() {
+export function Navbar() {
     return (
         <nav className="nav">
             <div><a>Profile</a></div>
