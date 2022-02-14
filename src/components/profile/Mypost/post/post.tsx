@@ -1,6 +1,6 @@
 import React from "react";
 import post from "./post.module.css"
-import avatar from "./image/avatar.png"
+import avatar from "./postimage/avatar.png"
 
 export function Post() {
     return (

@@ -3,3 +3,8 @@
     background-color: aliceblue;
     grid-area: c;
 }
+.content_logo{
+    object-fit: none;
+    height: 200px;
+    width: 750px;
+}

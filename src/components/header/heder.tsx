@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "./header_image/logo_social_network.png";
+import logo from "./header_image/logotyp.png";
 import header from "./header.module.css";
 
 

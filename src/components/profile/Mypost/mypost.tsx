@@ -1,17 +1,10 @@
 import React from "react";
-import logos from "./image/content_logo.jpg";
-import img from "./image/social_logo.png"
+import img from "./mypostimage/social_logo.png"
 import mp from "./mypost.module.css"
-import {Post} from "./post/post";
 
 export function Mypost() {
     return (
         <div className={mp.content}>
-
-            <div>
-                <img className={mp.content_logo} src={logos} alt="fudzi"/>
-            </div>
-
             <div className={mp.container_content_social_logo}>
 
                 <div className={mp.box1}>
@@ -28,9 +21,6 @@ export function Mypost() {
                 <textarea>post</textarea>
                 <button>Add post</button>
             </div>
-            <Post/>
-            <Post/>
-            <Post/>
 
         </div>
     )
