@@ -1,10 +1,10 @@
 import React from "react";
-import "./navbar.css"
+import nav from "./navbar.module.css"
 
 
 export function Navbar() {
     return (
-        <nav className="nav">
+        <nav className={nav.nav}>
             <div><a>Profile</a></div>
             <div><a>Messages</a></div>
             <div><a>News</a></div>

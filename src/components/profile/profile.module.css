@@ -5,8 +5,12 @@
 }
 .content_logo{
     object-fit: none;
-    height: 120px;
+    height: 200px;
     width: 750px;
+}
+.container_content_social_logo{
+    display: flex;
+    flex-direction: row;
 }
 .content_social_logo{
     width: 70px;
