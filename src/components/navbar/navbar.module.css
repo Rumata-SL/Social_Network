@@ -4,3 +4,9 @@
     padding: 2px;
     box-sizing: border-box;
 }
+.link.active{
+    color: red;
+}
+.link{
+    color: blue;
+}
