@@ -2,7 +2,7 @@ import React from "react";
 import nav from "./navbar.module.css"
 
 
-export function Navbar() {
+export const Navbar = () => {
     return (
         <nav className={nav.nav}>
             <div className={`${nav.link} ${nav.active}`}><a>Profile</a></div>

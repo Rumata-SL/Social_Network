@@ -3,7 +3,7 @@ import logo from "./header_image/logotyp.png";
 import header from "./header.module.css";
 
 
-export function Header() {
+export const Header = () => {
     return (
         <header className={header.header}>
             <div className={header.header_logo}><img className={header.logo} src={logo} alt="logo"/></div>
