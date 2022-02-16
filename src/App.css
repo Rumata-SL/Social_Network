@@ -49,6 +49,11 @@
     "h h"
     "n c";
 }
+.app-wrapper-content{
+    padding: 2px;
+    background-color: aliceblue;
+    grid-area: c;
+}
 
 
 

@@ -1,8 +1,4 @@
-.content{
-    padding: 2px;
-    background-color: aliceblue;
-    grid-area: c;
-}
+
 .content_logo{
     object-fit: cover;
     height: 200px;
