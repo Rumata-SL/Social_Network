@@ -1,29 +1,7 @@
 import React, {FC} from "react";
 import d from "./dialogs.module.css"
-import {NavLink} from "react-router-dom";
-
-type UsersProps = {
-    id: number;
-    name: string;
-}
-
-const DialogsUsers: FC<UsersProps> = ({id, name}) => {
-    return (
-        <div className={d.item}>
-            <NavLink to={`${id}`}>{name}</NavLink>
-        </div>
-    )
-}
-type MessageProps = {
-    message: string;
-}
-const UserMessage: FC<MessageProps> = ({message}) => {
-    return (
-        <div>
-            <p>{message}</p>
-        </div>
-    )
-}
+import {UserMessage} from "./usermessage/usermessage"
+import {DialogsUsers} from "./dialogsusers/dialogsuser"
 
 
 export const Dialogs = () => {
