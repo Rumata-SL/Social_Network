@@ -4,18 +4,10 @@
 }
 
 .dialog_items {
+    font-family:  BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     margin-left: 10px;
     border-right: solid 2px red;
     padding: 10px;
 }
 
-.dialog_messages {
-    margin-left: 10px;
-    padding: 10px;
-}
-.dialog_messages{
-    font-size: 1.1em;
-}
-.dialog_items{
-    font-size: 0.9em;
-}
+

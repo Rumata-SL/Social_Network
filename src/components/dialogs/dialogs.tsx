@@ -10,7 +10,7 @@ export const Dialogs = () => {
             <div className={d.dialog_items}>
                 <DialogsUsers />
             </div>
-            <div className={d.dialog_messages}>
+            <div className={d.dialog_items}>
                 <UserMessage/>
             </div>
         </div>

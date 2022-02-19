@@ -1,5 +1,6 @@
 import React, {FC} from "react";
-
+import dm from "../dialogs.module.css";
+import {NavLink} from "react-router-dom";
 
 type MessageProps = {
     id: number;
@@ -16,13 +17,13 @@ const UsMessages = [
 export const UserMessage: FC = () => {
     const UMessage = UsMessages.map(item => {
         return (
-            <div key={item.id}>
-                <p>{item.message}</p>
-            </div>
+                <div>
+                    <a key={item.id}> {item.message} </a>
+                        </div>
         )
     });
     return (
-        <div>
+        <div className={dm.item}>
             {UMessage}
         </div>
     )

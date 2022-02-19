@@ -1,7 +1,6 @@
 import React, {FC} from "react";
 import du from "../dialogs.module.css";
 import {NavLink} from "react-router-dom";
-import {Post} from "../../profile/Mypost/post/post";
 
 type UsersProps = {
     id: number;
@@ -19,7 +18,7 @@ export const DialogsUsers: FC= () => {
     let DUser = DUsers.map(item => {
         return (
             <div key={item.id} className={du.item}>
-                <p><NavLink to={`${item.id}`}>{item.name}</NavLink></p>
+                <NavLink to={`${item.id}`}>{item.name}</NavLink>
             </div>
         )
     });
