@@ -13,3 +13,9 @@
     margin-left: 10px;
     padding: 10px;
 }
+.dialog_messages{
+    font-size: 1.1em;
+}
+.dialog_items{
+    font-size: 0.9em;
+}
