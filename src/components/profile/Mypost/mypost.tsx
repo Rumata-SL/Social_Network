@@ -34,10 +34,14 @@ export const Mypost = () => {
             </div>
             <div>
                 <h6>My post</h6>
-                <textarea>post</textarea>
-                <button>Add post</button>
+                <div><textarea>post</textarea></div>
+                <div><button>Add post</button></div>
+
             </div>
-            {user}
+            <div className={mp.user}>
+                {user}
+            </div>
+
         </div>
     )
 }
