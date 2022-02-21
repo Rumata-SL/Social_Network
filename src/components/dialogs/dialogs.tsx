@@ -7,10 +7,10 @@ import {DialogsUsers} from "./dialogsusers/dialogsuser"
 export const Dialogs = () => {
     return (
         <div className={d.dialogs}>
-            <div className={d.dialog_items}>
+            <div className={d.dialog}>
                 <DialogsUsers />
             </div>
-            <div className={d.dialog_items}>
+            <div className={d.message}>
                 <UserMessage/>
             </div>
         </div>

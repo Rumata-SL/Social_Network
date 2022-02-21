@@ -1,6 +1,5 @@
 import React, {FC} from "react";
 import dm from "../dialogs.module.css";
-import {NavLink} from "react-router-dom";
 
 type MessageProps = {
     id: number;
@@ -19,7 +18,7 @@ export const UserMessage: FC = () => {
         return (
                 <div>
                     <a key={item.id}> {item.message} </a>
-                        </div>
+                </div>
         )
     });
     return (

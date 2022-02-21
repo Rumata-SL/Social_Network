@@ -17,7 +17,7 @@ const DUsers = [
 export const DialogsUsers: FC= () => {
     let DUser = DUsers.map(item => {
         return (
-            <div key={item.id} className={du.item}>
+            <div key={item.id}>
                 <NavLink to={`${item.id}`}>{item.name}</NavLink>
             </div>
         )

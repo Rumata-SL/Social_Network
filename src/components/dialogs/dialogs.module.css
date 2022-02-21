@@ -2,12 +2,11 @@
     display: grid;
     grid-template-columns: 3fr 10fr;
 }
+.dialog{
+    margin: 10px 0 10px 10px;
 
-.dialog_items {
-    font-family:  BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    margin-left: 10px;
-    border-right: solid 2px red;
-    padding: 10px;
 }
-
+.message{
+    margin: 10px 0 10px 10px;
+}
 
