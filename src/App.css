@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 /*.App-logo {
@@ -36,20 +36,25 @@
     transform: rotate(360deg);
   }
 }*/
-.app-wrapper{
-  width: 1200px;
-  margin: 0 auto;
-  padding: 5px;
-  background-color: lightblue;
-  display: grid;
-  grid-template-rows: 60px 1fr;
-  grid-template-columns: 2fr 10fr;
-  grid-gap: 5px;
-  grid-template-areas:
+#root {
+
+}
+
+.app-wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: lightblue;
+    display: grid;
+    grid-template-rows: 70px 1fr;
+    grid-template-columns: 2fr 10fr;
+    grid-gap: 5px;
+    grid-template-areas:
     "h h"
     "n c";
 }
-.app-wrapper-content{
+
+.app-wrapper-content {
     padding: 2px;
     background-color: aliceblue;
     grid-area: c;
