@@ -9,9 +9,13 @@ import {Profile} from "./components/profile/profile";
 import {Dialogs} from "./components/dialogs/dialogs";
 import {Music} from "./components/music/music";
 import {News} from "./components/new/news";
-import {Settings} from "./components/setting/settings";
+import {Settings} from "./components/settings_nav/settings";
 
-function App() {
+type AppProps = {
+
+}
+
+function App(props: AppProps) {
     return (
         <Router>
             <div className="app-wrapper">
@@ -19,7 +23,7 @@ function App() {
                 <Navbar/>
                 <div className="app-wrapper-content">
                     <Routes>
-                        <Route path="/Profile" element={<Profile/>}/>
+                        <Route path="/" element={<Profile/>}/>
                         <Route path="/Dialogs/*" element={<Dialogs/>}/>
                         <Route path="/News" element={<News/>}/>
                         <Route path="/Music" element={<Music/>}/>

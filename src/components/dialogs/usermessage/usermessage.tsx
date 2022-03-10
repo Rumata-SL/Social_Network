@@ -5,6 +5,7 @@ type MessageProps = {
     id: number;
     message: string;
 }
+
 const UsMessages = [
     {id: 1, message: "Hello, i am Satoshi"},
     {id: 2, message: "Hello, i am Djun"},

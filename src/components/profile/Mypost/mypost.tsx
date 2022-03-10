@@ -2,16 +2,15 @@ import React from "react";
 import img from "./mypostimage/social_logo.png"
 import mp from "./mypost.module.css"
 import {Post} from "./post/post";
+import {PostType} from "../profile";
 
-const users = [
-    {id: 1, message: "I am samurai", likes: 5},
-    {id: 2, message: "I am ninja", likes: 10},
-    {id: 3, message: "I am Satoshi Nakamoto", likes: 15},
-]
+type MyPostProps = {
+    posts: Array<PostType>
+}
 
-export const Mypost = () => {
+export const Mypost: React.FC<MyPostProps> = (props) => {
 
-    let user = users.map(item => {
+    let user = props.posts.map(item => {
         return (
             <div key={item.id}>
                 <Post message={item.message} likes={item.likes}/>
